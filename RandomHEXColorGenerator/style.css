@@ -1,0 +1,39 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.main{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container{
+  width: 30rem;
+  height: 15rem;
+  background-color: beige;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 35px;
+  text-align: center;
+}
+.btn{
+  display: block;
+  width: 100%;
+  background-color: black;
+  font-size: 20px;
+  color: beige;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+.btn:hover{
+  background-color:#fff;
+  color:#3f8bdc;
+  border: 1px solid #000;
+}
+.text{
+  font-size: 20px;
+}
