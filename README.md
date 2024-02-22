@@ -1,4 +1,4 @@
-# Create Mini Project - 
+# Create Mini Project - Using JAvascript
 <br>
 Random-HEX-Color-Generator
 <br>
