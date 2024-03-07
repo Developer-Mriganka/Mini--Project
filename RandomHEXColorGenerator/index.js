@@ -25,12 +25,19 @@ const main  = ()=>{
  const text = document.querySelector('.text');
  const button = document.querySelector('.btn');
  const colorCode = document.querySelector('.colorCode');
+ const CopyBtn = document.querySelector('.copyBtn')
 
  button.addEventListener('click', () => {
     const bgcolor = generator();
   document.body.style.backgroundColor = bgcolor;
   colorCode.value= bgcolor;
   text.style.color = bgcolor;
+ })
+
+ CopyBtn.addEventListener('click',()=>{
+  navigator.clipboard.writeText(colorCode.value)
+  const bgcolor = generator()
+  CopyBtn.style.color = bgcolor;
  })
 }
 
